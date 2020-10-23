@@ -30,6 +30,7 @@ The Instagrm data which are heterogeneously distributed in the area was converte
 As a result of the study, we were able to train the agent who learned the optimal policy of visiting the most famous area.[[Map 3]](https://geoai-rl.github.io/SimulationResult_20201012.html)
 
 # [Map 1](https://geoai-rl.github.io/ITW_baseMap_20201011.html) : Itaewon Instagram contents map(Static Map)
+* *If you want to see the map bigger, click 'Map 1'*
 
 <center><img src="/assets/basemapimage.jpg" width="600" height="500"></center>
 <center>Itaewon Instagram contents map 1 example</center>
@@ -44,6 +45,7 @@ As a result of the study, we were able to train the agent who learned the optima
 * Research Area layer: Research Area layer indicates the research areas which consist of three administrative areas(Yongsan-dong 2-ga, Itaewon-dong, Hannam-dong) where Itaewon commercial districts are formed.
 
 # [Map 2](https://geoai-rl.github.io/ITW_timeInstagramCummulative.html) : Itaewon Instagram contents map(Dynamic Map)
+* *If you want to see the map bigger, click 'Map 2'*
 
 <center><img src="/assets/map2Example.gif" width="600" height="500"></center>
 <center>Map 2 example</center>
@@ -56,6 +58,8 @@ The cumulative sum of contents by region was expressed in order of time to ident
 The distribution of contents allows us to identify the active areas at a specific point in time.
 
 # [Map 3](https://geoai-rl.github.io/SimulationResult_20201012.html) : Deep Reinforcement learning simulation result(dynamic map)
+* *If you want to see the map bigger, click 'Map 3'*
+* *Click 'Map 3', then press the 3rd button on the bottom left for playback*
 
 <center><img src="/assets/images//reinforcementlearning.jpg" width="500" height="500"></center>
 <center>Reinforcement learning process</center>

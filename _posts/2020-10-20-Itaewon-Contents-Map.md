@@ -99,4 +99,4 @@ Furthermore, we look forward to the possibility of developing the vanishing proc
 *(in progress) Jang, J., & Choi, J. (2020). Predicting pedestrian behaviors in Itaewon commercial district using user generated contents : deep reinforcement learning approach.*
 <br/>
 *Jang, J. (1st author), Kim, M., Choi, J., (2020), A Study on the Relationship between Foot Traffic and Instagram Contents Using Spatial Panel Model, Korea Society for Geospatial Information Science (in Korean with English abstract)*
-([Jang, et.al, 2020](https://github.com/geoai-rl/geoai-rl.github.io/blob/master/spatialpanel_instagtram_1023.pdf))
+([Jang, et.al, 2020](https://github.com/geoai-rl/geoai-rl.github.io/blob/main/spatialpanel_instagram_1023.pdf))

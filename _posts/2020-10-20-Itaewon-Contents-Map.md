@@ -13,8 +13,8 @@ But is it really the best choice to visit the shop using the results of a search
 If the store I found was once famous or if I didn't search enough, I wouldn't be able to find the most famous store in the region.
 Rather than spending more time on the Internet to find the best place to visit, I think we can solve this problem if we know the distribution of online popularity throughout commercial districts.
 
-This map expresses the Instagram popularity of Itaewon commercial district which is located in Itaewon([Map 1](https://geoai.github.io/ITW_baseMap_20201011.html), [Map 2](https://geoai.github.io/ITW_timeInstagramCummulative.html)), Yongsan-gu, Seoul, South Korea. It is one of representative business district in Seoul. 
-Also not only represent Instagram distribution, but trained the agent which visited the area based on the Instagram popularity using deep reinforcement learning([Map 3](https://geoai.github.io/SimulationResult_20201012.html)).
+This map expresses the Instagram popularity of Itaewon commercial district which is located in Itaewon([Map 1](https://geoai-rl.github.io/ITW_baseMap_20201011.html), [Map 2](https://geoai-rl.github.io/ITW_timeInstagramCummulative.html)), Yongsan-gu, Seoul, South Korea. It is one of representative business district in Seoul. 
+Also not only represent Instagram distribution, but trained the agent which visited the area based on the Instagram popularity using deep reinforcement learning([Map 3](https://geoai-rl.github.io/SimulationResult_20201012.html)).
 At first an agent randomly interacted with the map, however, after simulation, agent could finally learn the opimized policy to find the most famous areas based on given data.
 To make this map, 20 computers were parallelized to collect Instagram data. Store names in Itaewon region were used as queries for search on Instagram and parsed information. Through this process, Instagram contents that occurred between January 1, 2013 and August 19, 2019 (approximately 2167 days) were saved in the database.
 
@@ -24,7 +24,7 @@ To find timeseries trend in the Itaewon area, spatiotemporal distribution of the
 In 2013, when Instagram was launched in Korea, little contents were created in Itaewon area, but as it goes to August 2019, it can be seen that contents were generated throughout Itaewon.
 
 In particular, the distribution of contents can identify the active areas in the region at certain time.
-In addition to describe the popularity distribution on the Itaewon area, I trained artificial intelligence that can support spatial decisions by utilizing data. Instagram contents are spatiotemporal data that have a significant impact on the floating population([Jang, et.al, 2020](https://github.com/geoai/geoai.github.io/blob/master/paper/spatialpanel_instagtram_1023.pdf))
+In addition to describe the popularity distribution on the Itaewon area, I trained artificial intelligence that can support spatial decisions by utilizing data. Instagram contents are spatiotemporal data that have a significant impact on the floating population([Jang, et.al, 2020](https://github.com/geoai-rl/geoai-rl.github.io/blob/master/paper/spatialpanel_instagtram_1023.pdf))
 
 The Instagrm data which are heterogeneously distributed in the area was converted into the learning environment, and the agent which interacted with the environment were trained using deep reinforcement learning.
 As a result of the study, we were able to train the agent who learned the optimal policy of visiting the most famous area.[[Map 3]](https://jilijiliji.github.io/SimulationResult_20201012.html)

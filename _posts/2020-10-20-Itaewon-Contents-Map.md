@@ -24,7 +24,7 @@ To find timeseries trend in the Itaewon area, spatiotemporal distribution of the
 In 2013, when Instagram was launched in Korea, little contents were created in Itaewon area, but as it goes to August 2019, it can be seen that contents were generated throughout Itaewon.
 
 In particular, the distribution of contents can identify the active areas in the region at certain time.
-In addition to describe the popularity distribution on the Itaewon area, I trained artificial intelligence that can support spatial decisions by utilizing data. Instagram contents are spatiotemporal data that have a significant impact on the floating population([Jang, et.al, 2020](https://github.com/geoai-rl/geoai-rl.github.io/blob/master/spatialpanel_instagtram_1023.pdf))
+In addition to describe the popularity distribution on the Itaewon area, I trained artificial intelligence that can support spatial decisions by utilizing data. Instagram contents are spatiotemporal data that have a significant impact on the floating population([Jang, et.al, 2020](https://github.com/geoai-rl/geoai-rl.github.io/blob/main/spatialpanel_instagram_1023.pdf))
 
 The Instagrm data which are heterogeneously distributed in the area was converted into the learning environment, and the agent which interacted with the environment were trained using deep reinforcement learning.
 As a result of the study, we were able to train the agent who learned the optimal policy of visiting the most famous area.[[Map 3]](https://geoai-rl.github.io/SimulationResult_20201012.html)

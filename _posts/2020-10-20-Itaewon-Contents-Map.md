@@ -99,7 +99,7 @@ It is expected that this research can be used to support spatial decisions for s
 Furthermore, in future researches, we look forward to explain the vanishing process of stores due to higher rents, which makes people to respond to gentrification.
 
 <br/>
-*(in progress) Jang, J., & Choi, J. (2020). Predicting pedestrian behaviors in Itaewon commercial district using user-generated contents: deep reinforcement learning approach.*
+*(in progress) Jang, J., Choi, J. (2020). Predicting pedestrian behaviors in Itaewon commercial district using user-generated contents: deep reinforcement learning approach.*
 <br/>
 <br/>
 *Jang, J. (1st author), Kim, M., Choi, J., (2020), A Study on the Relationship between Foot Traffic and Instagram Contents Using Spatial Panel Model, Korea Society for Geospatial Information Science ([in Korean with English abstract](https://github.com/geoai-rl/geoai-rl.github.io/blob/main/spatialpanel_instagram_1023.pdf)))*

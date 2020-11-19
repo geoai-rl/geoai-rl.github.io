@@ -98,6 +98,7 @@ We can identify active commercial districts at a certain time, and we can also u
 It is expected that this research can be used to support spatial decisions for small business owners when they select new store locations.
 Furthermore, in future researches, we look forward to explain the vanishing process of stores due to higher rents, which makes people to respond to gentrification.
 
+__This post is based on the papers below__
 <br/>
 *(in progress) Jang, J., Choi, J. (2020). Predicting pedestrian behaviors in Itaewon commercial district using user-generated contents: deep reinforcement learning approach.*
 <br/>

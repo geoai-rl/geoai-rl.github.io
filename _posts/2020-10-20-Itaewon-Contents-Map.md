@@ -39,7 +39,7 @@ As a result of the study, we were able to train the agent who learned the optima
 <br/>
 
 [[Map 1]](https://geoai-rl.github.io/ITW_baseMap_20201011.html) shows Instagram data, store locations, research areas, and simulation scope data on the map.
-* HeatMap (Instagram Buzz) layer: Instagram data is displayed in HeatMap (Instagram Buzz) layer. It was expressed in HeatMap to see the relative distribution of Instagram contents within the Itaewon district. Blue color represents the lowest frequency, on the other hand, red color represents the highest frequency
+* HeatMap (Instagram Buzz) layer: Instagram data is displayed in HeatMap (Instagram Buzz) layer. It was expressed in HeatMap to see the distribution of Instagram contents within the Itaewon district. Blue color represents the lowest frequency, on the other hand, red color represents the highest frequency
 * BUILDING (341) layer: The location of stores in Itaewon area can be found in BUILDING (341) layer. A total of 341 shops are displayed in research areas. Markers are marked on the coordinates where the store is located, and you can check the total number of "accumulated" Instagram contents by clicking on them.
 * Simulation Environment (Grid) Layer: The simulation Environment (Grid) Layer indicates the environment in which deep reinforcement learning is applied. Around Itaewon Station, the range of 1000㎡ was used as the simulation environment, and the environment of 1,000㎡ consisted of 10,000 grids(10㎡).
 * Research Area layer: Research Area layer indicates the research areas which consist of three administrative areas(Yongsan-dong 2-ga, Itaewon-dong, Hannam-dong) where Itaewon commercial districts are formed.
@@ -53,8 +53,8 @@ As a result of the study, we were able to train the agent who learned the optima
 * *Blue color represents the lowest frequency, on the other hand red color represents the highest frequency*
 <br/>
 
-[[Map 2]](https://geoai-rl.github.io/ITW_timeInstagramCummulative.html) has a chronological display of Instagram contents that were generated between January 1, 2013, and August 19, 2019.
-The cumulative sum of contents by region was expressed in order of time to identify the activated areas of the Itaewon commercial district.
+[[Map 2]](https://geoai-rl.github.io/ITW_timeInstagramCummulative.html) shows a chronological display of Instagram contents that were posted between January 1, 2013, and August 19, 2019.
+The cumulative sum of contents in the area was expressed in a timely order to identify the activated areas of the Itaewon commercial district.
 The distribution of contents allows us to identify the active areas at a specific point in time.
 
 # [Map 3](https://geoai-rl.github.io/SimulationResult_20201012.html) : Deep Reinforcement learning simulation result(dynamic map)
@@ -76,9 +76,9 @@ The agent selects an action according to the state of the environment and receiv
 * *Red grid: Red grids represent the place where shops are located*
 <br/>
 
-[[Map 3]](https://geoai-rl.github.io/SimulationResult_20201012.html) demonstrates the process of training using deep reinforcement learning.
-In deep reinforcement learning simulation, the agent receives high rewards for visiting areas with a lot of Instagram content, otherwise, they will not be rewarded. Through learning, the agent derives the optimal policy of visiting the most famous area in Itaewon.
-As can be seen in [Map 1](https://geoai-rl.github.io/ITW_baseMap_20201011.html)'s 'Simulation Environment (Grid) Layer', a grid environment was formed to respond to the actual space range, and Instagram contents that occurred in areas corresponding to the space range of each grid were aggregated into each grid.
+[[Map 3]](https://geoai-rl.github.io/SimulationResult_20201012.html) demonstrates the training process using deep reinforcement learning.
+In deep reinforcement learning simulation, the agent receives high rewards for visiting areas with a lot of Instagram posts, otherwise, the agent will not be rewarded. Through learning, the agent finds the optimal policy to visit the most famous area in Itaewon.
+As can be seen in [Map 1](https://geoai-rl.github.io/ITW_baseMap_20201011.html)'s 'Simulation Environment (Grid) Layer', a grid environment was formed to respond to the actual space range, and Instagram contents that were generated in the areas corresponding to the space range of each grid were aggregated into each grid.
 
 <center><img src="/assets/simulationResult.gif" width="600" height="500"></center>
 <center>Map 3 - Deep Reinforcement Learning Simulation in Real World</center>
@@ -90,12 +90,12 @@ As can be seen in [Map 1](https://geoai-rl.github.io/ITW_baseMap_20201011.html)'
 The results of simulation between August 2018 and August 2019 are as shown in [Map 3](https://geoai-rl.github.io/SimulationResult_20201012.html).
 It is possible to check the frequency of the agent's visits according to simulation.
 Areas which were highly visited by the agent were shown red in Heatmap, otherwise blue.
-Agent visited all regions at random in the early stages of learning, but as learning progressed, it can learn the policy of visiting famous areas, and consequently converged into the areas where the highest rewards can be obtained.
+The agent randomly visited areas in the early training stages, but as training progressed, it can learn the optimal policy to visit the most famous areas, and consequently the agent is converged into the areas where the highest rewards can be obtained.
 
-Based on the results of Itaewon Instagram Contents Map, visitors to the commercial district can plan an optimal plan to visit an area where famous shops inside the commercial district are clustered.
-It is also expected to provide useful information to small business owners who operate businesses in local commercial districts.
-We can see how active commercial districts are at a certain point in time, and we can also use the trained agent to predict areas which will be popular in the future.
-It is expected that this research will be used to help make spatial decisions for small business owners such as extending store contracts and selecting new store locations.
+Based on the results of Itaewon Instagram Contents Map, visitors to the commercial district can plan an optimal plan to visit the best location where famous shops are clustered.
+It is also expected to provide useful information to small business owners who run business in the research area.
+We can identify active commercial districts at certain time, and we can also use the trained agent to predict areas which will be popular in the future.
+It is expected that this research can be used to support spatial decisions for small business owners when they select new store locations.
 Furthermore, we look forward to the possibility of developing the vanishing process of stores due to higher rents, which can predict and respond to gentrification in future researches.
 
 * This post is based on the papers below

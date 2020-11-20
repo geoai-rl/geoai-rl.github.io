@@ -96,7 +96,7 @@ Based on the results of the Itaewon Instagram Contents Map, visitors to the comm
 It is also expected to provide useful information to small business owners who run businesses in the research area.
 We can identify active commercial districts at a certain time, and we can also use the trained agent to predict areas which will be popular in the future.
 It is expected that this research can be used to support spatial decisions for small business owners when they select new store locations.
-Furthermore, in future researches, we look forward to explain the vanishing process of stores due to higher rents, which makes people to respond to gentrification.
+Furthermore, in future researches, we look forward to explain the vanishing process of stores due to higher rents, to solve gentrification.
 
 __This post is based on the papers below__
 <br/>

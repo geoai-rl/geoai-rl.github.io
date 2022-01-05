@@ -9,13 +9,13 @@ Research Area: [Interactive Map](https://geoai-rl.github.io/ReproducePNAS.html)
 
 Violation HeatMap: [Interactive Map](https://geoai-rl.github.io/ViolationHeatMap_PWS-colonias.html)
 
-American Community Survey (ACS) - Demographic Information [DropBox](https://www.dropbox.com/s/bszto65253b5q68/Demographic_information.html?dl=0)
+American Community Survey (ACS) - Demographic Information [DropBox](https://www.dropbox.com/sh/wbbzuic4bmnoogj/AABYuQ-p8mHFtNjMnIeczuJMa?dl=0)
 
-American Community Survey (ACS) - Economic Information [DropBox](https://www.dropbox.com/s/bszto65253b5q68/Demographic_information.html?dl=0)
+American Community Survey (ACS) - Economic Information [DropBox](https://www.dropbox.com/sh/wbbzuic4bmnoogj/AABYuQ-p8mHFtNjMnIeczuJMa?dl=0)
 
-American Community Survey (ACS) - Housing Information [DropBox](https://www.dropbox.com/s/bszto65253b5q68/Demographic_information.html?dl=0)
+American Community Survey (ACS) - Housing Information [DropBox](https://www.dropbox.com/sh/wbbzuic4bmnoogj/AABYuQ-p8mHFtNjMnIeczuJMa?dl=0)
 
-American Community Survey (ACS) - Social Information [DropBox](https://www.dropbox.com/s/bszto65253b5q68/Demographic_information.html?dl=0)
+American Community Survey (ACS) - Social Information [DropBox](https://www.dropbox.com/sh/wbbzuic4bmnoogj/AABYuQ-p8mHFtNjMnIeczuJMa?dl=0)
 
 
 * * *
